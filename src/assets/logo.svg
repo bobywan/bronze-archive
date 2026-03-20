@@ -1,0 +1,25 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bronzeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#CD7F32" /> <stop offset="50%" stop-color="#A67D3D" /> <stop offset="100%" stop-color="#8B4513" /> </linearGradient>
+
+    <radialGradient id="timeMagic" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#FFD100" stop-opacity="0.8"/> <stop offset="100%" stop-color="#FFA500" stop-opacity="0"/> </radialGradient>
+
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <filterDropShadow dx="0" dy="4" stdDeviation="4" flood-color="black" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <path d="M50 30 L150 30 C160 30, 170 40, 170 50 L170 70 C170 80, 160 90, 150 90 L100 110 L150 130 C160 130, 170 140, 170 150 L170 170 C170 180, 160 190, 150 190 L50 190 C40 190, 30 180, 30 170 L30 150 C30 140, 40 130, 50 130 L100 110 L50 90 C40 90, 30 80, 30 70 L30 50 C30 40, 40 30, 50 30 Z"
+          fill="url(#bronzeGradient)"
+          stroke="#5D3A1A"
+          stroke-width="3"/>
+
+    <ellipse cx="100" cy="110" rx="30" ry="50" fill="url(#timeMagic)"/>
+    <path d="M90 80 Q100 110, 110 80 M95 140 Q100 110, 105 140" stroke="#FFD100" stroke-width="2" stroke-linecap="round"/>
+
+    <path d="M45 55 L65 55 M45 65 L60 65 M135 155 L155 155 M140 165 L155 165" stroke="#5D3A1A" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>
